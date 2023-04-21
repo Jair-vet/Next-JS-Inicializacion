@@ -14,15 +14,15 @@ export default function AboutPagev() {
 
       <Navbar />
 
-      <main>
+      <main className='mt-72'>
 
-        <h1>
-        Regresar a <Link href="/">HomePage</Link>
+        <h1 className='text-center text-5xl'>
+          Regresar a <Link href="/" className='text-darkBlue font-bold'>HomePage</Link>
         </h1>
 
-        <p>
+        <p className='text-2xl text-center mt-20'>
           Get started by editing&nbsp;
-          <code>src/pages/index.js</code>
+          <code className='text-sm bg-gray-50 p-2 rounded-md'>src/pages/index.js</code>
         </p>
 
       </main>

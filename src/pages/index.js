@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { Navbar } from '@/components/Navbar'
 
@@ -15,15 +14,15 @@ export default function HomePage() {
 
       <Navbar />
 
-      <main className={styles.main}>
+      <main className='mt-72'>
 
-        <h1 className={styles.title}>
-          Ir a <Link href="/about">About</Link>
+        <h1 className='text-center text-5xl'>
+          Ir a <Link href="/about" className='text-darkBlue font-bold'>About</Link>
         </h1>
 
-        <p>
+        <p className='text-2xl text-center mt-20'>
           Get started by editing&nbsp;
-          <code className={styles.code}>src/pages/index.js</code>
+          <code className='text-sm bg-gray-50 p-2 rounded-md'>src/pages/index.js</code>
         </p>
 
       </main>
