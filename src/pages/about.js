@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 import { Navbar } from '@/components/Navbar'
 
@@ -15,15 +14,15 @@ export default function AboutPagev() {
 
       <Navbar />
 
-      <main className={styles.main}>
+      <main>
 
-        <h1 className={styles.title}>
+        <h1>
         Regresar a <Link href="/">HomePage</Link>
         </h1>
 
         <p>
           Get started by editing&nbsp;
-          <code className={styles.code}>src/pages/index.js</code>
+          <code>src/pages/index.js</code>
         </p>
 
       </main>
